@@ -19,6 +19,12 @@ import './permission' // permission control
 
 import * as filters from './filters' // global filters
 
+import 'xe-utils'
+import VXETable from 'vxe-table'
+import 'vxe-table/lib/style.css'
+
+Vue.use(VXETable)
+
 /**
  * If you don't want to use mock-server
  * you want to use MockJs for mock api
